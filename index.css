@@ -1,0 +1,133 @@
+.border1
+{
+    border-width: 5px;
+    border-style: double;
+    border-color: skyblue; 
+}
+
+ul,li
+{
+    display: flex;
+    margin-left: 40px;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 7%;
+}
+
+ul
+{
+    margin-left: 65%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li:hover
+{
+    cursor: pointer;
+    color:  aqua;
+    
+}
+
+
+
+span
+{
+    font-size: 40px;
+    color: skyblue;
+}
+
+h2
+{
+    color: aliceblue;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.A
+{
+    color: aqua;
+}
+
+ 
+
+.me
+{
+    margin-left: 74%;
+    margin-top: -10%;
+}
+
+.h3
+{
+    color:  silver;
+    margin-left: 40px;
+    margin-top: 4%;
+}
+
+body
+{
+    background-image: url(Images/home\ background.webp);
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 420px) {
+    
+        
+
+        ul,li
+        {
+            margin-left: 40px;
+            font-size: 10px;
+            color: aliceblue;
+            margin-top: 5%;
+        }
+
+
+        ul
+        {
+            margin-left: 30%;
+        }
+
+        span
+        {
+            font-size: 20px;
+            color: skyblue;
+        }
+
+        h2
+        {
+            color: aliceblue;
+            margin-top: 10%;
+            margin-left: 20px;
+            font-size: 10px;
+        }
+
+        .h3
+        {
+            color: silver;
+            margin-left: 20px;
+            font-size: 10px;
+            display: inline-block;
+            width: 400px;
+            height: 450px;
+            margin-top: 10%;
+        }
+
+        .me
+        {
+            margin-left: 60%;
+            margin-top: -20%;
+        }
+
+        .border1
+        {
+            border-width: 5px;
+            border-style: double;
+            border-color: skyblue;
+            width: 450px;
+            display: inline-block;
+        }
+}
+
