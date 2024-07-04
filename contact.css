@@ -1,0 +1,87 @@
+.border1
+{
+    border-width: 10px;
+    border-style: double;
+    border-color:  black; 
+}
+
+ul,li
+{
+    display: flex;
+    margin-left: 40px;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 7%;
+     
+     
+}
+
+ul{
+    margin-left: 65%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li:hover
+{
+    cursor: pointer;
+    color:  aqua;
+}
+
+form
+{   display: flex;
+    margin-left: 40%;
+     
+}
+
+h1
+{
+    color: aliceblue;
+}
+
+td
+{
+    color: aliceblue;
+}
+
+@media screen and (max-width: 420px) {
+    
+        
+    ul,li
+    {
+        margin-left: 40px;
+        font-size: 10px;
+        color: aliceblue;
+        margin-top: 5%;
+    }
+
+
+    ul
+    {
+        margin-left: 30%;
+    }
+
+    .border1
+    {
+        border-width: 5px;
+        border-style: double;
+        border-color: skyblue;
+        width: 450px;
+        display: inline-block;
+    }
+
+    h1
+    {
+        color: aliceblue;
+        font-size: 15px;
+    }
+
+    form
+    {
+        margin-left: 25%; 
+    }
+    
+
+}

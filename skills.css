@@ -1,0 +1,260 @@
+.border1
+{
+    border-width: 5px;
+    border-style: double;
+    border-color: skyblue; 
+}
+ul,li
+{
+    display: flex;
+    margin-left: 40px;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 7%;
+     
+     
+}
+ul{
+    margin-left: 65%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li:hover
+{
+    cursor: pointer;
+    color:  aqua;
+}
+
+ 
+
+.skill1
+{
+    background-color: aliceblue;
+    display: inline-block;
+    color: black;
+    border: 20px solid whitesmoke;
+    padding-left: 70px;
+    margin-left: 400px;
+    margin-top: 140px;
+    border-radius: 50px;
+}
+
+.skill2
+{
+    background-color: aliceblue;
+    display: inline-block;
+    color: black;
+    border: 20px solid whitesmoke;
+    padding-left: 70px;
+    margin-left: 70px;
+    border-radius: 50px;
+}
+
+.skill3
+{
+    background-color: aliceblue;
+    display: inline-block;
+    color: black;
+    border: 20px solid whitesmoke;
+    padding-left: 70px;
+    margin-left: 30%;
+    margin-top: 7%;
+    border-radius: 50px;
+}
+
+.skill4
+{   
+    background-color: aliceblue;
+    display: inline-block;
+    color: black;
+    border: 20px solid whitesmoke;
+    padding-left: 70px;
+    border-radius: 50px;
+    margin-left: 5%;
+}
+
+.government1
+{
+    margin-top: -20%;
+    margin-left: 28.5%;
+}
+
+.government2
+{
+    margin-left: 56%;
+    margin-top: -59px;
+}
+
+.html5
+{
+    margin-top: 10.5%;
+    margin-left: 31%;
+}
+
+.css
+{
+    margin-left: 50%;
+    margin-top: -4%;
+}
+
+body
+{
+    background-image: url(Images/skills\ Background.jpg);
+    background-repeat: no-repeat;
+   
+     
+}
+
+@media screen and (max-width: 420px) {
+    
+        
+    ul,li
+    {
+        margin-left: 40px;
+        font-size: 10px;
+        color: aliceblue;
+        margin-top: 5%;
+    }
+
+
+    ul
+    {
+        margin-left: 30%;
+    }
+
+    .border1
+    {
+        border-width: 5px;
+        border-style: double;
+        border-color: skyblue;
+        width: 450px;
+        display: inline-block;
+    }
+
+    .government1
+    {
+        margin-top: -125%;
+        margin-left: 18%;
+    }
+
+    .skill1
+    {
+        background-color: aliceblue;
+        display: inline-block;
+        color: black;
+        border: 20px solid whitesmoke;
+        padding-left: 70px;
+        margin-left: 50px;
+        margin-top: 140px;
+        border-radius: 50px;
+    }
+
+    .skill2
+    {
+        background-color: aliceblue;
+        display: inline-block;
+        color: black;
+        border: 20px solid whitesmoke;
+        padding-left: 70px;
+        margin-left: 70px;
+        border-radius: 50px;
+        margin-top: 7%;
+    }
+
+    .government2
+    {
+        margin-left: 22%;
+        margin-top: 80px;
+    }
+
+    .skill3
+    {
+        background-color: aliceblue;
+        display: inline-block;
+        color: black;
+        border: 20px solid whitesmoke;
+        padding-left: 70px;
+        margin-left: 30%;
+        margin-top: 7%;
+        border-radius: 50px;
+    }
+
+    .html5
+    {
+        margin-top: 18%;
+        margin-left: 36%;
+    }
+
+    .skill4
+    {   
+        background-color: aliceblue;
+        display: inline-block;
+        color: black;
+        border: 20px solid whitesmoke;
+        padding-left: 70px;
+        border-radius: 50px;
+        margin-left: 30%;
+        margin-top: 7%;
+    }
+
+    .css
+    {
+        margin-left: 36%;
+        margin-top: 18%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    
+    ul,li
+    {
+        margin-left: 40px;
+        font-size: 10px;
+        color: aliceblue;
+        margin-top: 5%;
+    }
+
+
+    ul
+    {
+        margin-left: 30%;
+    }
+
+    .border1
+    {
+        border-width: 5px;
+        border-style: double;
+        border-color: skyblue;
+        width: 450px;
+        display: inline-block;
+    }
+
+    .government1
+    {
+        margin-top: -140%;
+        margin-left: 18%;
+    }
+
+    .government2
+    {
+        margin-left: 22%;
+        margin-top: 90px;
+    }
+
+
+    .html5
+    {
+        margin-top: 25%;
+        margin-left: 36%;
+    }
+
+
+    .css
+    {
+        margin-left: 36%;
+        margin-top: 20%;
+    }
+}
